@@ -1,0 +1,38 @@
+#include <stdio.h.
+#define Pi 3.14
+int main(){
+    int choice;
+    float r,l,b,h,side,area;
+    print("Choose Shape to find Area:\n");
+    print("1.circle\n2.Rectangle\n3.Trinagle\n4.Square\n");
+scanf("%d",&choice);
+switch(choice){
+    case1:
+     printf("Enter radius:");
+     scanf(%f",&r);
+     area=pi*r*r;
+     printf("Area of Circle=%.2f\n",area);
+     break;
+case2:
+     printf("Enter lenght and breadht:");
+     scanf("%f%f",&l,&b);
+     area=1*b;
+     printf("Area of Rectangle=%.2f\n",area);
+     break:
+case3:
+     printf("Enter base and height:");
+     sacnf("%f%f",&b,&h);
+     area=05.*b*h;
+     printf("Area of Triangle=%.2\n",area);
+     break:
+case4:
+     printf("Enter side:");
+     sacnf("%f",&side);
+     area=side*side;
+     printf("Area of Square=%.2f\n",area);
+     break;
+   default:
+    printf("Invalid Choice!\n");
+}
+    return 0;
+}
